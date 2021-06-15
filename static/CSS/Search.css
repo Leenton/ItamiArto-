@@ -1,0 +1,146 @@
+body{
+    scrollbar-color: blue;
+}
+#banner{
+    display: flex;
+    background: linear-gradient(to bottom, transparent, transparent),
+      url(https://s4.anilist.co/file/anilistcdn/user/banner/18024-L4Hf3uhjDuqv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+@media (orientation: landscape){
+    #aletrs{
+        display: none;
+    }
+    #banner{
+        display: flex;
+        align-items: flex-end;    
+    }
+    #user-card{
+        display: flex;
+        align-items: center;  
+    }
+    #bio{
+        display: flex;
+        align-items: top;
+        background: #1f1f1f;
+        border-radius: 5px;
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 2px 10px #1f1f1f;
+        max-width: 50rem;
+    }
+    
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: hidden;
+        scrollbar-color: blue;
+    }
+    .username p{
+        font-size: 2rem;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        margin: 0.75rem;
+    }
+    .about{
+        margin-inline: 1rem;
+        font-family: Arial;
+    }
+    .user-tags{
+        overflow-x: auto;
+        scrollbar-color: blue;        
+    }
+    .user-tags ul{
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        
+    }
+    .user-tags li{
+        display: inline;
+        display: block;
+        background: red;
+        font-family: Arial;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        border-radius: 1rem;
+        white-space: nowrap;
+    }
+    .avatar img{
+        height: 256px;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    #contact ul{
+       width: 100%;
+       padding: 0;
+       list-style-type: none;
+    }  
+    #contact li{
+        margin-block-start: 2rem;
+        margin-inline-start: 15rem;;
+        font-family: Arial;
+        display: block;
+        padding: 1.25rem;
+        background: #1f1f1f;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        font: 1rem;
+        font-weight: bold;
+    }
+    #contact li:hover{
+        background: #414141;
+        box-shadow: 0 2px 15px #414141;    
+    }
+    #contact .rank{
+        background: #d24444;
+    }
+    #contact .rank:hover{
+        background: #e85858;
+        box-shadow: 0 2px 15px #e85858;    
+    }
+    .Commission-Modal{
+        display: none;
+    }
+    .Contact-Modal{
+        display: none;
+    }
+    .Price-Modal{
+        display: none;
+    }
+    
+    
+    #Portfolio{
+        border-radius: 5px;
+        display: flex;
+
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 150rem;
+        margin:auto;
+        margin-block-start: 2rem;
+
+        
+    }
+    
+    .Portfolio-Item{
+        margin: 1rem;
+        display:block;
+        width: 17.5rem;
+        height:20rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px;
+        background:#1f1f1f;
+        justify-content: space-evenly;
+        background: blue;
+    }
+    .Portfolio-Item img{
+    }
+}

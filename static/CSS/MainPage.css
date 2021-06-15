@@ -1,0 +1,68 @@
+.progress{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(121, 122, 126);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nav.links{
+   flex-basis: 50%;
+   float: right 
+    
+}
+#nav .links a{
+    
+    display: inline-block;
+    background: lightblue;
+    padding-block: 20px;
+    padding-inline: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    padding-block: 10px;
+    border: none;
+    margin-top: 30px;
+    width: 100%;  
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+p{
+    justify-self: start;
+    display: inline-block;
+    background: pink;
+    padding-block: 10px;
+    padding-inline: 10px;
+    border-radius: 50px;
+}
+
+#results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 1%px;
+    border-radius: 5px;
+    background: rgb(230, 226, 217);
+    box-shadow: 3px 6px rgba(187, 185, 180, 0.445);
+    justify-self: start;
+   
+}
+
+#results img{
+    border-radius: 25px;
+    padding-inline: 10px;
+    
+    
+}
+
+body{
+    background: rgb(247, 242, 231);
+    
+}

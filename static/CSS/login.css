@@ -1,0 +1,82 @@
+#login{
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 10%;
+    width:400px;
+    margin: auto;
+}
+#login  img{
+    width: 400px
+}
+  
+#login p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+  
+input[Type=Text] {
+    padding-block: 10px;
+    border: none;
+    margin-top: 30px;
+    width: 100%;  
+    font-size: 25px;
+    background-color: #3b3b3b;
+    color: #fdfdfd;
+}
+  input[Type=Password] {
+    padding-block: 10px;
+    border: none;
+    margin-top: 30px;
+    width: 100%;  
+    font-size: 25px;
+    background-color: #3b3b3b;
+    color: #fdfdfd;
+}
+  
+input[Type=Submit] {
+    justify-self: center;
+    padding-block: 10px;
+    border: none;
+    margin-top: 30px;
+    width: 100%;  
+    font-size: 25px;
+    background-color: #0f8cc1;
+    color: #fdfdfd;
+}
+  
+a.register{
+    display: flex;
+    justify-content: center;
+    padding-block: 10px;
+    background: #2163a9;
+    border: none;
+    margin-top: 30px;
+    width: 100%;  
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    color: #fdfdfd;
+
+}
+
+#messages {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#messages p{
+    color: white;
+    background: lightpink;
+    text-align: center;
+    width: 100%
+        
+}
+
+body{
+    background-color: #1d1d1d;
+}
